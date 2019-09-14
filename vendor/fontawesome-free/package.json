@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.9.0",
-      "/Users/niya/Documents/PROGRAMMING/social-media-ui"
+      "/Users/jasonhuang/Documents/Hackathons/social-media-ui"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.9.0",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.9.0.tgz",
   "_spec": "5.9.0",
-  "_where": "/Users/niya/Documents/PROGRAMMING/social-media-ui",
+  "_where": "/Users/jasonhuang/Documents/Hackathons/social-media-ui",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
