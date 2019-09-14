@@ -15,6 +15,10 @@ a {
   }
 }
 
+#favourites-row {
+  overflow-x: scroll;
+}
+
 // Main page wrapper
 #wrapper {
   display: flex;

@@ -9,6 +9,7 @@
   letter-spacing: 0.5em;
   text-shadow: 0.05em 0.05em 1em #000000;
   font-size: 3em;
+  margin-left: 0.8em;
 }
 
 .bg-register-image {
@@ -20,6 +21,10 @@
 .bg-gradient-primary {
   background-color: #3D277A;
   background-size: cover;
+
+  .p-0 {
+    background: #846AA6;
+  }
 }
 
 .bg-password-image {
@@ -30,6 +35,10 @@
 
 .d-none {
   background: #846AA6;
+
+  img {
+    width: 15em;
+  }
 }
 
 form.user {
