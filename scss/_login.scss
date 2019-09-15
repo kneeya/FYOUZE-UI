@@ -126,6 +126,22 @@ hr {
   padding: 0;
 }
 
+.connect-sm {
+  color: #fff;
+}
+
+.container-grid {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 6em 6em 6em;
+  grid-template-rows: 6em 6em;
+  padding-left: 5.8em;
+
+  :hover {
+    color: #F3B71B;
+  }
+}
+
 
 
 
