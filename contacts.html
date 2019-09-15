@@ -64,8 +64,9 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
   <!--            <h6 class="collapse-header">Custom Components:</h6>-->
-              <a class="collapse-item" href="buttons.html">My Profile</a>
-              <a class="collapse-item" href="cards.html">Social Channels</a>
+              <a class="collapse-item" href="#">My Profile</a>
+              <a class="collapse-item" href="#">Social Channels</a>
+              <a class="collapse-item" href="add-outlets.html">Add Social Channel</a>
             </div>
           </div>
         </li>
@@ -105,11 +106,11 @@
               <h6 class="collapse-header">Login Screens:</h6>
               <a class="collapse-item" href="login.html">Login</a>
               <a class="collapse-item" href="register.html">Register</a>
-              <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+              <a class="collapse-item" href="#">Forgot Password</a>
               <div class="collapse-divider"></div>
               <h6 class="collapse-header">Other Pages:</h6>
-              <a class="collapse-item" href="404.html">404 Page</a>
-              <a class="collapse-item" href="blank.html">Blank Page</a>
+              <a class="collapse-item" href="#">404 Page</a>
+              <a class="collapse-item" href="#">Blank Page</a>
             </div>
           </div>
         </li>
@@ -175,22 +176,6 @@
                 aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-search fa-fw"></i>
               </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                      aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </li>
 
             <!-- Nav Item - Alerts -->
             <li class="nav-item dropdown no-arrow mx-1">
@@ -201,109 +186,46 @@
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
               <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                aria-labelledby="alertsDropdown">
-                <h6 class="dropdown-header">
-                  Alerts Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-primary">
-                      <i class="fas fa-file-alt text-white"></i>
-                    </div>
+            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+              <h6 class="dropdown-header">
+                Notifications
+              </h6>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-primary">
+                    <i class="fas fa-user-friends text-white"></i>
                   </div>
-                  <div>
-                    <div class="small text-gray-500">December 12, 2019</div>
-                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-success">
-                      <i class="fas fa-donate text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 7, 2019</div>
-                    $290.29 has been deposited into your account!
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-warning">
-                      <i class="fas fa-exclamation-triangle text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 2, 2019</div>
-                    Spending Alert: We've noticed unusually high spending for your account.
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-              </div>
-            </li>
-
-            <!-- Nav Item - Messages -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
-                <!-- Counter - Messages -->
-                <span class="badge badge-danger badge-counter">7</span>
+                </div>
+                <div>
+                  <div class="small text-gray-500">September 15th, 2019</div>
+                  <span class="font-weight-bold">Emily Doe has sent you a FYOUZE request! 👥 </span>
+                </div>
               </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                aria-labelledby="messagesDropdown">
-                <h6 class="dropdown-header">
-                  Message Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-success">
+                    <i class="fas fa-user-friends text-white"></i>
                   </div>
-                  <div class="font-weight-bold">
-                    <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been
-                      having.</div>
-                    <div class="small text-gray-500">Emily Fowler · 58m</div>
+                </div>
+                <div>
+                  <div class="small text-gray-500">September 14th, 2019</div>
+                  John Smith has accepted your FYOUZE request! Let the spark ignite! 🔥
+                </div>
+              </a>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <div class="mr-3">
+                  <div class="icon-circle bg-warning">
+                    <i class="fab fa-instagram text-white"></i>
                   </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
-                    <div class="status-indicator"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them
-                      sent to you?</div>
-                    <div class="small text-gray-500">Jae Chun · 1d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
-                    <div class="status-indicator bg-warning"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Last month's report looks great, I am very happy with the progress so
-                      far, keep up the good work!</div>
-                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people
-                      say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
-              </div>
-            </li>
+                </div>
+                <div>
+                  <div class="small text-gray-500">September 9th, 2019</div>
+                  Jeanette added Instagram to her FYOUZE account! Go take a look! 👀
+                </div>
+              </a>
+              <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+            </div>
+          </li>
 
             <div class="topbar-divider d-none d-sm-block"></div>
 
@@ -311,7 +233,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ user }}</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Amelia</span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
               </a>
               <!-- Dropdown - User Information -->
@@ -409,7 +331,7 @@
           <!-- <h1 class="h3 mb-2 text-gray-800">Contacts</h1> -->
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              <a style="color: #000" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
                 aria-selected="true">All</a>
             </li>
             <li class="nav-item">
@@ -432,60 +354,52 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                       <thead>
                         <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
+                          <th>Name + FYOUZErname</th>
+                          <th>Facebook</th>
+                          <th>Instagram</th>
+                          <th>LinkedIn</th>
                         </tr>
                       </thead>
                       <tfoot>
                         <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
+                          <th>Name + FYOUZErname</th>
+                          <th>Facebook</th>
+                          <th>Instagram</th>
+                          <th>LinkedIn</th>
                         </tr>
                       </tfoot>
                       <tbody>
                         <!-- {% for person in contacts %} -->
                         <tr>
-                          <td>Tiger Nixon</td>
-                          <td>System Architect</td>
-                          <td>Edinburgh</td>
+                          <td>Tiger Nixon @tigernix</td>
+                          <td>TNixon</td>
+                          <td>@tigerrr</td>
+                          <td>tiger.nixon</td>
                         </tr>
                         <!-- {% endfor %} -->
                         <tr>
-                          <td>Garrett Winters</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
+                          <td>Garrett Winters @GWinters</td>
+                          <td>garrett11</td>
+                          <td>@garrettw</td>
+                          <td>g.winters</td>
                         </tr>
                         <tr>
-                          <td>Ashton Cox</td>
-                          <td>Junior Technical Author</td>
-                          <td>San Francisco</td>
+                          <td>Ashton Cox @AshtonC</td>
+                          <td>ashtoncc</td>
+                          <td>@ashtonc_</td>
+                          <td>ashton.cox</td>
                         </tr>
                         <tr>
-                          <td>Cedric Kelly</td>
-                          <td>Senior Javascript Developer</td>
-                          <td>Edinburgh</td>
+                          <td>Cedric Kelly @CedricKelly</td>
+                          <td>cedrickelly</td>
+                          <td>@cedricke11y</td>
+                          <td>cedric.kelly</td>
                         </tr>
                         <tr>
-                          <td>Airi Satou</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                        </tr>
-                        <tr>
-                          <td>Brielle Williamson</td>
-                          <td>Integration Specialist</td>
-                          <td>New York</td>
-                        </tr>
-                        <tr>
-                          <td>Herrod Chandler</td>
-                          <td>Sales Assistant</td>
-                          <td>San Francisco</td>
-                        </tr>
-                        <tr>
-                          <td>Rhona Davidson</td>
-                          <td>Integration Specialist</td>
-                          <td>Tokyo</td>
+                          <td>Airi Satou @AiriSatou</td>
+                          <td>airiii</td>
+                          <td>@airi234</td>
+                          <td>airi.s</td>
                         </tr>
                       </tbody>
                     </table>
@@ -502,62 +416,35 @@
                   <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                       <thead>
-                        <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
-                        </tr>
+                      <tr>
+                        <th>Name + FYOUZErname</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>LinkedIn</th>
+                      </tr>
                       </thead>
                       <tfoot>
-                        <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
-                        </tr>
+                      <tr>
+                        <th>Name + FYOUZErname</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>LinkedIn</th>
+                      </tr>
                       </tfoot>
                       <tbody>
-                        <!-- {% for person in contacts %} -->
-                        <tr>
-                          <td>Tiger Nixon</td>
-                          <td>System Architect</td>
-                          <td>Edinburgh</td>
-                        </tr>
-                        <!-- {% endfor %} -->
-                        <tr>
-                          <td>Garrett Winters</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                        </tr>
-                        <tr>
-                          <td>Ashton Cox</td>
-                          <td>Junior Technical Author</td>
-                          <td>San Francisco</td>
-                        </tr>
-                        <tr>
-                          <td>Cedric Kelly</td>
-                          <td>Senior Javascript Developer</td>
-                          <td>Edinburgh</td>
-                        </tr>
-                        <tr>
-                          <td>Airi Satou</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                        </tr>
-                        <tr>
-                          <td>Brielle Williamson</td>
-                          <td>Integration Specialist</td>
-                          <td>New York</td>
-                        </tr>
-                        <tr>
-                          <td>Herrod Chandler</td>
-                          <td>Sales Assistant</td>
-                          <td>San Francisco</td>
-                        </tr>
-                        <tr>
-                          <td>Rhona Davidson</td>
-                          <td>Integration Specialist</td>
-                          <td>Tokyo</td>
-                        </tr>
+                      <tr>
+                        <td>Tiger Nixon @tigernix</td>
+                        <td>TNixon</td>
+                        <td>@tigerrr</td>
+                        <td>tiger.nixon</td>
+                      </tr>
+                      <!-- {% endfor %} -->
+                      <tr>
+                        <td>Garrett Winters @GWinters</td>
+                        <td>garrett11</td>
+                        <td>@garrettw</td>
+                        <td>g.winters</td>
+                      </tr>
                       </tbody>
                     </table>
                   </div>
@@ -573,62 +460,40 @@
                   <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                       <thead>
-                        <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
-                        </tr>
+                      <tr>
+                        <th>Name + FYOUZErname</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>LinkedIn</th>
+                      </tr>
                       </thead>
                       <tfoot>
-                        <tr>
-                          <th>FYOUZE username</th>
-                          <th>Name</th>
-                          <th>Social media channels</th>
-                        </tr>
+                      <tr>
+                        <th>Name + FYOUZErname</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>LinkedIn</th>
+                      </tr>
                       </tfoot>
                       <tbody>
-                        <!-- {% for person in contacts %} -->
-                        <tr>
-                          <td>Tiger Nixon</td>
-                          <td>System Architect</td>
-                          <td>Edinburgh</td>
-                        </tr>
-                        <!-- {% endfor %} -->
-                        <tr>
-                          <td>Garrett Winters</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                        </tr>
-                        <tr>
-                          <td>Ashton Cox</td>
-                          <td>Junior Technical Author</td>
-                          <td>San Francisco</td>
-                        </tr>
-                        <tr>
-                          <td>Cedric Kelly</td>
-                          <td>Senior Javascript Developer</td>
-                          <td>Edinburgh</td>
-                        </tr>
-                        <tr>
-                          <td>Airi Satou</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                        </tr>
-                        <tr>
-                          <td>Brielle Williamson</td>
-                          <td>Integration Specialist</td>
-                          <td>New York</td>
-                        </tr>
-                        <tr>
-                          <td>Herrod Chandler</td>
-                          <td>Sales Assistant</td>
-                          <td>San Francisco</td>
-                        </tr>
-                        <tr>
-                          <td>Rhona Davidson</td>
-                          <td>Integration Specialist</td>
-                          <td>Tokyo</td>
-                        </tr>
+                      <tr>
+                        <td>Ashton Cox @AshtonC</td>
+                        <td>ashtoncc</td>
+                        <td>@ashtonc_</td>
+                        <td>ashton.cox</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly @CedricKelly</td>
+                        <td>cedrickelly</td>
+                        <td>@cedricke11y</td>
+                        <td>cedric.kelly</td>
+                      </tr>
+                      <tr>
+                        <td>Airi Satou @AiriSatou</td>
+                        <td>airiii</td>
+                        <td>@airi234</td>
+                        <td>airi.s</td>
+                      </tr>
                       </tbody>
                     </table>
                   </div>
@@ -647,7 +512,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; FYOUZE 2019</span>
           </div>
         </div>
       </footer>
