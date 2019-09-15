@@ -29,6 +29,10 @@ a {
   .p-0 {
     background: #846AA6;
   }
+
+  .p-5 {
+    display: initial;
+  }
 }
 
 .bg-password-image {
@@ -48,6 +52,7 @@ a {
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    padding-left: 2.5em;
   }
 }
 
@@ -83,5 +88,32 @@ form.user {
 
 .btn-primary {
   background-color: #3D277A;
-  border-color: none;
+  border-color: #fff;
 }
+
+.custom-control-label {
+  color: #fff;
+}
+
+.forgot-pw {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.or {
+  color: #fff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: small;
+}
+
+hr {
+  margin-top: 1.2rem;
+}
+
+#login-form-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
