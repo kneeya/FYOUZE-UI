@@ -1,6 +1,10 @@
 // Pulling these images from Unsplash
 // Toshi the dog from https://unsplash.com/@charlesdeluvio - what a funny dog...
 
+a {
+  color: #fff;
+}
+
 .bg-login {
   background-color: #846AA6;
   text-align: center;
@@ -75,4 +79,9 @@ form.user {
 
 .btn-facebook {
   @include button-variant($brand-facebook, $white);
+}
+
+.btn-primary {
+  background-color: #3D277A;
+  border-color: none;
 }
